@@ -1,7 +1,13 @@
 #include <iostream>
 
+/**
+ * Palindrome Test
+ * Author- Dedipyaman Das 
+ * Aliases- 2D, 2DSharp, 2D-CB
+ * Email- 2dcodeblocks@gmail.com
+ */
 int main() {
-
+  
   int num, temp, rem, rev=0;
   
   std::cout << "Palindrome test, enter number: ";
