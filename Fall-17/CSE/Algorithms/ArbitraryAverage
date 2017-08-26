@@ -1,0 +1,8 @@
+START
+
+PRINT "How many numbers?"
+
+READ limit
+
+PRINT "Number:"
+
