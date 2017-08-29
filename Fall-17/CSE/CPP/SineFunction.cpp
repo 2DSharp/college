@@ -21,10 +21,12 @@ int main() {
   power = 1;
   
   while (counter<=7){
+
     while (power <= counter) {
       num = num * radian;
       power++;
     }
+    prev = power;
     
     den = 1; fact =1;
     while (den <= counter) {
