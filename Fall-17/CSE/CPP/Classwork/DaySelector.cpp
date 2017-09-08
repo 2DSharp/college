@@ -10,7 +10,6 @@ int main() {
   switch(dayNum) {
 
       case 1: {
-
 	std::cout << "Monday";
 	break;
       }
