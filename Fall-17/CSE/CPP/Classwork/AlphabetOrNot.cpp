@@ -10,10 +10,11 @@ int main() {
 
   ascii = (int) character ;
 
-  if (ascii > 65 && ascii < 117) {
+  if ((ascii >= 65 && ascii <= 90) || (ascii >= 97 && ascii <= 122)) {
 
     std::cout << "It is an alphabet" << std::endl;
   }
-
+  else std::cout << "It ain't an alphabet" << std::endl;
+  
   return 0;
 }
