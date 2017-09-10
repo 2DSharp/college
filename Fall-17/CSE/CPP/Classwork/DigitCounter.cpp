@@ -9,10 +9,8 @@ int main() {
 
   int i = 0;
 
-  std::cout << num;
   if (num < 0) {
     num = 0 - num;
-    std::cout << num;
   }
 
   else if (num == 0) {
