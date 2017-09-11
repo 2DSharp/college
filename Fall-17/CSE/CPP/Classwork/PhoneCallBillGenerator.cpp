@@ -24,11 +24,10 @@ int main() {
   std::transform(day.begin(), day.end(), day.begin(), ::tolower);
   
   std::vector<std::string> workDays
-  { "mo", "tu", "we", "th", "fr"};
+  { "mo", "tu", "we", "th", "fr" };
 
   std::vector<std::string> weekends
-  { "su", "sa"};
-
+  { "su", "sa" };
   
   if ((std::find(workDays.begin(), workDays.end(), day) != workDays.end())) {
 
@@ -50,11 +49,9 @@ int main() {
     main();
     return 0;
   }
-
-  
   amt = rate * duration;
 
-  std::cout << "Your bill is: " << amt << std::endl;
+  std::cout << "Your bill is: $" << amt << std::endl;
   
   return 0;
 }
