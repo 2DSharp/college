@@ -10,12 +10,12 @@ int main() {
 
   type = "Scalene";
   
-  if ((a==b)==c) {
-    type = "Equilateral";
-  }
 
-  else if (a==b || b==c || c==a) {
+  if (a==b || b==c || c==a) {
     type = "Isosceles";
+  }
+  if ((a==b) && (b==c)) {
+    type = "Equilateral";
   }
 
   std::cout << "It is a(n) " << type << " triangle" << std::endl;

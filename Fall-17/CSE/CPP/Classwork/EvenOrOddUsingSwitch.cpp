@@ -9,7 +9,8 @@ int main() {
   std::cout << "Enter the number: ";
   std::cin >>  num;
 
-  switch(num % 2 == 0) {
+  int res = num % 2 ==0;
+  switch(res) {
 
       case 0:
 	  type = "Odd";
