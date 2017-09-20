@@ -1,3 +1,14 @@
+Programming solutions by:	Dedipyaman Das | 17BCE7080
+
+Looping Exercises
+=================
+Please go to this github repository for all the code:
+https://github.com/2Dsharp/college/tree/master/Fall-17/CSE/CPP/Assignments
+
+The name of the source code file followed by the code itself and the output is given.
+
+Each code is written in GNU Emacs and compiled in G++ in a Linux environment.
+
 NaturalNumbers.cpp
 
 #include <iostream>

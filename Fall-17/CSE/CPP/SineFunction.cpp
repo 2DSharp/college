@@ -12,7 +12,7 @@
 int main() {
 
   float radian, total, term, num=1.0, den;
-  int power, counter=1, fact=1;
+  int power, counter=1, prev, fact=1;
   int termNo =1;
   
   std::cout << "Calculate the sine of a value, enter value: ";

@@ -24,7 +24,7 @@ int main() {
   pi *= 4;
 
   std::cout << pi << std::endl;
-    
+  main();
   return 0;
 } 
 
