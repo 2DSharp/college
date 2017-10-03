@@ -9,22 +9,22 @@ int main() {
 
   num = 1;
   
-    while (num <= limit) {
+  while (num <= limit) {
 
-      int sum = 0;
-      for (int i=1; i < num; i++) {
+    int sum = 0;
+    for (int i=1; i < num; i++) {
 	
-	if (!(num % i)) {
-	  sum = sum + i;	  
-	}
+      if (!(num % i)) {
+	sum = sum + i;	  
       }
-      
-      if (num == sum) {
-	std::cout << " " << sum;
-      }
-
-      num++;
     }
+      
+    if (num == sum) {
+      std::cout << " " << sum;
+    }
+
+    num++;
+  }
   
   std::cout <<  std::endl;
   

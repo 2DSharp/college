@@ -20,40 +20,35 @@ bool isPrime(int num) {
 
   for(int i=2;i<=limit;i++){
 
-    if((num%i == 0)) {
-
-      return false;
-    }
+    return ! (num%i == 0);
   }
   return true;
 }
-
 bool isPerfect(int num) {
 
-  int sum;
+  int sum= 0;
   
   for (int i=1; i < num; i++) {
-    
-    if (num % i == 0) {
-      sum += i;
-    }
-  }
 
+    if (!(num % i)) {
+	sum += i;	  
+      }
+  }
+  
   return num == sum;
 }
-
 bool isArmstrong(int num) {
 
-  int sum, last;
-  sum = 0;
-    
+  int sum = 0, last = 0;
+  int dupl = num;
+
   while (num > 0) {
 
     last = num % 10;
-    sum += pow (last, 3);
+    sum +=pow (last, 3);
     num /= 10;
   }
     
-  return num == sum;
+  return dupl == sum;
 }
 #endif
