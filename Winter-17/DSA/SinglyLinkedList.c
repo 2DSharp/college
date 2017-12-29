@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define false  0
+#define true  1
+
 struct Node {
   
   int data;
@@ -10,7 +13,6 @@ struct Node {
 struct Node * createNode(int data);
 struct Node * pushNodeAtTheEnd(struct Node * head, int data);
 struct Node * pushNodeAtTheHead(struct Node * head, int data);
-
 void deleteNodeAtTheEnd(struct Node * head);
 
 struct Node * createNode(int data) {
@@ -19,7 +21,9 @@ struct Node * createNode(int data) {
   
   node->data = data;
   node->next = NULL;
-
+  if (node == NULL) {
+    printf("Malloc failed, something is seriously wrong!");
+  }
   return node;
 }
 
@@ -69,7 +73,7 @@ void iterateThroughLinkedList(struct Node * head) {
 
   }
   printf("\n");
-  free(cursor);
+
 }
 
 struct Node * deleteNodeAtTheHead(struct Node * head) {
@@ -79,12 +83,11 @@ struct Node * deleteNodeAtTheHead(struct Node * head) {
   return newHead;
 }
 
-void deleteNodeAt(int pos, struct Node * head) {
+int deleteNodeAt(int pos, struct Node * head) {
 
   if (pos == 0){
 
-    printf("Can't remove the head element, use deleteNodeAtHead() instead");
-    return;
+    return false;
   }
   
   struct Node * cursor = head;
@@ -97,7 +100,7 @@ void deleteNodeAt(int pos, struct Node * head) {
   }
 
   prevCursor->next = cursor->next;
-  
+  return true;
 }
 struct Node * pushNodeAt(int pos, struct Node * head, int data) {
 
@@ -131,6 +134,7 @@ int main() {
   struct Node * head = createNode(1);
 
   struct Node * n1 = pushNodeAtTheEnd(head, 20);
+
   iterateThroughLinkedList(head);
 
   struct Node * n2 =pushNodeAtTheEnd(head, 32);
