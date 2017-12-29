@@ -126,40 +126,10 @@ struct Node * pushNodeAt(int pos, struct Node * head, int data) {
   return newNode;
 }
 
-struct Node * reverse(struct Node *head) {
-
-  struct Node * cursor = head;
-  //struct Node * prevCursor = head;
-  struct Node * temp = cursor->next;
-  struct Node * cursor2;
-
-  while (temp == cursor->next) {
-
-    cursor->next = cursor->next->next;
-    temp->next = cursor;
-    temp = cursor->next;
-  }
-  /*while (temp == cursor->next) {
-    
-      temp = cursor->next;
-      cursor->next = cursor->next->next;
-      temp->next = cursor;
-    }
-  */
-  printf("temp: %d and cursor: %d", temp->data, cursor->data);
-
-  return temp;
-}
 int main() {
 
   struct Node * head = createNode(1);
-  struct Node * n1 =pushNodeAtTheEnd(head, 2);
-  struct Node * n2 =pushNodeAtTheEnd(head, 3);
-  struct Node * n3 =pushNodeAtTheEnd(head, 4);
-  struct Node * n4 =pushNodeAtTheEnd(head, 5);
-  struct Node * n5 =pushNodeAtTheEnd(head, 6);
-  iterateThroughLinkedList(head);
-  /*
+
   struct Node * n1 = pushNodeAtTheEnd(head, 20);
   iterateThroughLinkedList(head);
 
@@ -183,14 +153,10 @@ int main() {
 
   deleteNodeAt(2, head);
   iterateThroughLinkedList(head);
-  */
-  head = reverse(head);
-  iterateThroughLinkedList(head);
 
   free(head);
   free(n1);
   free(n2);
   free(n3);
   free(n4);
-  free(n5);
 }
