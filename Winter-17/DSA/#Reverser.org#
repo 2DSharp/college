@@ -1,3 +1,0 @@
-1 2 3 4 5 | 1-> cursor, 2-> temp
-2 1 3 4 5 | 1-> cursor, 2->temp, since cursor2->next = cursor continue swap
-2 3 1 4 5 | 1-> cursor, 2->temp, cursor2->next != cursor, swap 3 and 2
