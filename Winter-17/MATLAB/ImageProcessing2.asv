@@ -1,0 +1,5 @@
+img = imread('Color2.jpg');
+w = imshow(img);
+size(w);
+
+img(:
