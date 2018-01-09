@@ -10,14 +10,18 @@ private:
     Node * next;
   };
   Node * head;
-  Node * createNode(T headDAta);
+  Node * createNode(T data);
 
 public:
-  T value;
   LinkedList(T headData);
   ~LinkedList();
   void iterateThroughList();
-  void pushBack(T data);  
+  void pushBack(T data);
+  void pushFront(T data);
+  void popBack();
+  void popFront();
+  void reverse();
+  bool update(int, T);
 };
 
 #include "LinkedListFuncs.h"
