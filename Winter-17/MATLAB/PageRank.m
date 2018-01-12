@@ -19,5 +19,5 @@ max = 0;
     end
 %pMn
 disp("Highest visited page: ")
-maxIndex
+maxVisited
 max

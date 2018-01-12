@@ -1,0 +1,12 @@
+* Hill Cipher
+
+  + Identifying the number of blocks
+  + Alphabet -> Numeric pair
+  + Matrix reading
+  + Looping till the string ends
+  + Identifying the size of message
+  + Multiplication of matrices
+  + Transpose
+  + Mod26
+  + Num -> Alphabet
+  
