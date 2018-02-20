@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 /**
  * Decimal to Binary conversion
  * Author- Dedipyaman Das 
@@ -7,42 +8,30 @@
  */
 int main( ) {
 
+  std::string binary, binaryRev;
   int dec, bit;
-  bool first = true;
+
   std::cout << "Convert Decimal numbers to binary for FREE! Enter decimal number: ";
   std::cin >> dec;
   std::cout << "Input: (" << dec << ") base 10 \n";
-
-  int totalBin = 0;
-
-  if (dec%2 == 0) {
-    first = false;
-  }
   
   /* Find the binary digits, arrange them in reverse */
   while (dec>0) {
 
     bit = dec % 2;
-    totalBin = totalBin*10+bit; 
+ 
     dec = dec/2;
+    
+    binaryRev = binaryRev + std::to_string(bit);
     std::cout << dec << "\t" << bit << "\n";
   }
 
-  
+  for (int i = binaryRev.length(); i > 0; i--) {
+    
+    binary += binaryRev.at(i-1);
+  }
   /* Reverse the binary to get the actual number */
-  int rev = 0;
+  std::cout << "Binary Output: " << binary << "\n";
   
-  while (totalBin>0) {
-    bit = totalBin%10;
-    rev = rev * 10 + bit;
-    totalBin /=10;
-  }
-
-  
-  if (first == false) {
-    rev *=10;
-  }
-    std::cout << "Binary Output: " << rev << "\n";
-
   return 0;
 }
