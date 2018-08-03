@@ -1,4 +1,4 @@
-package me.twodee;
+package me.twodee.GradeCalculator;
 
 public class Subject {
 
