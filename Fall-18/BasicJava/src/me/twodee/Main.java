@@ -1,5 +1,6 @@
 package me.twodee;
 
+import me.twodee.ArrayStuff.MidValueReplace;
 import me.twodee.RectangleCalc.RectangleCalculator;
 import me.twodee.SampleQuestionApp.SmallestNumberFinder;
 
@@ -10,8 +11,9 @@ public class Main {
     public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);
-        CommandLineApp app = new RectangleCalculator();
+        CommandLineApp app = new MidValueReplace();
         app.run(scanner);
+
 
 
     }
