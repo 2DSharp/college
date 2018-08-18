@@ -13,10 +13,61 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/twodee/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="30">
+              <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Salary.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SalaryCalculation/Salary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IncomeTax.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SalaryCalculation/IncomeTax.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Allowance.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SalaryCalculation/Allowance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SalaryCalculator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SalaryCalculation/SalaryCalculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <folding>
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SalaryApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SalaryCalculation/SalaryApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -24,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MidValueReplace.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/me/twodee/ArrayStuff/MidValueReplace.java">
+      <file leaf-file-name="MidValueReplace.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/ArrayStuff/MidValueReplace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="285">
               <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -39,7 +90,7 @@
         </entry>
       </file>
       <file leaf-file-name="CommandLineApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/twodee/CommandLineApp.java">
+        <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/CommandLineApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
@@ -91,9 +142,15 @@
         <option value="$PROJECT_DIR$/src/me/twodee/RectangleCalc/RectangleCalculator.java" />
         <option value="$PROJECT_DIR$/src/me/twodee/RectangleCalc/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/me/twodee/ArrayStuff/MidValuReplace.java" />
-        <option value="$PROJECT_DIR$/src/me/twodee/Main.java" />
         <option value="$PROJECT_DIR$/src/me/twodee/ArrayStuff/MidValueReplace.java" />
         <option value="$PROJECT_DIR$/src/me/twodee/ArrayStuff/MatrixMultiplication.java" />
+        <option value="$PROJECT_DIR$/src/me/twodee/Main.java" />
+        <option value="$PROJECT_DIR$/src/me/twodee/CS2005/SalaryCalculation/IncomeTax.java" />
+        <option value="$PROJECT_DIR$/src/me/twodee/CS2005/SalaryCalculation/Allowance.java" />
+        <option value="$PROJECT_DIR$/src/me/twodee/CS2005/SalaryCalculation/Salary.java" />
+        <option value="$PROJECT_DIR$/src/me/twodee/CS2005/SalaryCalculation/SalaryCalculator.java" />
+        <option value="$PROJECT_DIR$/src/me/twodee/CS2005/Main.java" />
+        <option value="$PROJECT_DIR$/src/me/twodee/CS2005/SalaryCalculation/SalaryApplication.java" />
       </list>
     </option>
   </component>
@@ -164,7 +221,13 @@
             <path>
               <item name="BasicJava" type="58d84e3e:PackageViewProjectNode" />
               <item name="BasicJava" type="616d4139:PackageViewModuleNode" />
-              <item name="me.twodee" type="1f31426a:PackageElementNode" />
+              <item name="me.twodee.CS2005" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="BasicJava" type="58d84e3e:PackageViewProjectNode" />
+              <item name="BasicJava" type="616d4139:PackageViewModuleNode" />
+              <item name="me.twodee.CS2005" type="1f31426a:PackageElementNode" />
+              <item name="SalaryCalculation" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -194,7 +257,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="me.twodee.Main" />
+      <option name="MAIN_CLASS_NAME" value="me.twodee.CS2005.Main" />
       <module name="BasicJava" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -224,18 +287,21 @@
       <workItem from="1533965912529" duration="2706000" />
       <workItem from="1534176025469" duration="1368000" />
       <workItem from="1534218678266" duration="2884000" />
-      <workItem from="1534394350190" duration="441000" />
+      <workItem from="1534394350190" duration="579000" />
+      <workItem from="1534570267434" duration="2593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24104000" />
+    <option name="totallyTimeSpent" value="26835000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="767" extended-state="0" />
+    <frame x="0" y="-17" width="683" height="767" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -243,11 +309,11 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30839694" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3080357" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16129032" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37444934" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -261,7 +327,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,59 +341,14 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/ArithmeticOperator/Addition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/CommandLineApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/SampleQuestionApp/SmallestNumberFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/ArithmeticOperator/Operator.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/ArithmeticOperator/Operator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/ArithmeticOperator/Addition.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/ArithmeticOperator/Addition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
@@ -339,14 +359,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/CommandLineApp.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/CommandLineApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/ArithmeticOperator/ArithmeticRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/ArithmeticOperator/ArithmeticRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
@@ -356,234 +376,231 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/SimpleCalculator/Addition.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SimpleCalculator/Addition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/SimpleCalculator/Subtraction.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SimpleCalculator/Subtraction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/SimpleCalculator/Multiplication.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SimpleCalculator/Multiplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/SimpleCalculator/ArithmeticOperator.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SimpleCalculator/ArithmeticOperator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/SimpleCalculator/Division.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SimpleCalculator/Division.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/SimpleCalculator/Calculator.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SimpleCalculator/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/CommandLineApp.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/CommandLineApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/GradeCalculator/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/GradeCalculator/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/GradeCalculator/Subject.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/GradeCalculator/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/GradeCalculator/GradeCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/GradeCalculator/GradeCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/CommandLineApp.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/CommandLineApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/GradeCalculator/Subject.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/GradeCalculator/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/GradeCalculator/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/GradeCalculator/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/EmployeeData/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/EmployeeData/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/EmployeeData/EmployeeData.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/EmployeeData/EmployeeData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="78" lean-forward="true" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/BankingSystemBasic/Account.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/BankingSystemBasic/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/BankingSystemBasic/BankingSystem.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/BankingSystemBasic/BankingSystem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/SimpleCalculator/Addition.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SimpleCalculator/Addition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/SimpleCalculator/Subtraction.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SimpleCalculator/Subtraction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/SimpleCalculator/Multiplication.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SimpleCalculator/Multiplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/SimpleCalculator/ArithmeticOperator.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SimpleCalculator/ArithmeticOperator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/SimpleCalculator/Division.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SimpleCalculator/Division.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/SimpleCalculator/Calculator.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SimpleCalculator/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/GradeCalculator/GradeCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/GradeCalculator/GradeCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="20" selection-start-column="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/VehicleInformation/TwoWheeler.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/VehicleInformation/TwoWheeler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/VehicleInformation/VehicleInformation.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/VehicleInformation/VehicleInformation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/VehicleInformation/Vehicle.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/VehicleInformation/Vehicle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/SampleQuestionApp/IntegerSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SampleQuestionApp/IntegerSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/SampleQuestionApp/CharacterSwitch.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SampleQuestionApp/CharacterSwitch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/SampleQuestionApp/SmallestNumberFinder.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SampleQuestionApp/SmallestNumberFinder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/RectangleCalc/RectangleCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/RectangleCalc/RectangleCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
@@ -593,14 +610,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/RectangleCalc/Rectangle.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/RectangleCalc/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/ArithmeticOperator/ArithmeticRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/ArithmeticOperator/ArithmeticRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
@@ -610,21 +627,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/ArithmeticOperator/Operator.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/ArithmeticOperator/Operator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/CommandLineApp.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/CommandLineApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/ArithmeticOperator/Addition.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/ArithmeticOperator/Addition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
@@ -635,38 +652,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/ArithmeticOperator/Subtraction.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/ArithmeticOperator/Subtraction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/ArrayStuff/MatrixMultiplication.java" />
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/ArrayStuff/MidValueReplace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/ArrayStuff/MatrixMultiplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/ArrayStuff/MidValueReplace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="285">
           <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#646#647#0" expanded="true" />
             <element signature="e#694#695#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SalaryCalculation/Allowance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SalaryCalculation/Salary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SalaryCalculation/IncomeTax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SalaryCalculation/SalaryCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SalaryCalculation/SalaryApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
