@@ -3,4 +3,5 @@
 *.in
 *.out
 *.class
-
+.idea/
+*.iml
