@@ -1,80 +1,57 @@
 #include <iostream>
-#include <vector>
-#include "RandInputStream.h"
 
-void merge(std::vector<int>& arr, std::vector<int>& left, std::vector<int>& right) {
+int * merge(int arr[], int size, int leftStart, int rightEnd) {
 
-  int leftIndex = 0, rightIndex = 0;
-  int leftEnd = left.size()-1;
-  int rightEnd = right.size() - 1;
-  int index = 0;
+  int leftEnd = (leftStart + rightEnd) / 2;
+  int rightStart = leftEnd + 1;
+  int temp[size];
+  
+  int leftIndex = leftStart;
+  int rightIndex = rightStart;
+  int index = leftStart;
+
   while (leftIndex <= leftEnd && rightIndex <= rightEnd) {
-    
-    if (left[leftIndex] < right[rightIndex]) {
 
-      arr[index] = left[leftIndex];
+    if (arr[leftIndex] < arr[rightIndex]) {
+      temp[index] = arr[leftIndex];
       leftIndex++;
-      
     } else {
-
-      arr[index] = right[rightIndex];
+      temp[index] = arr[rightIndex];
       rightIndex++;
     }
-    index++;
+    index++; 
   }
 
   while (leftIndex <= leftEnd) {
-    arr[index] = left[leftIndex];
-    index++;
+    temp[index] = arr[leftIndex];
     leftIndex++;
+    index++;
   }
   while (rightIndex <= rightEnd) {
-    arr[index] = right[rightIndex];
-    index++;
+    temp[index] = arr[rightIndex];
     rightIndex++;
+    index++;
   }
+
+  return temp;
 }
-void mergeSort(std::vector<int>& arr) {
+int * mergeSort(int arr[], int size, int leftStart, int rightEnd) {
 
-  int end = arr.size() - 1;
+  if (leftStart >= rightEnd) {
 
-  int leftEnd = end/2;
-  int rightStart = leftEnd + 1;
-  int rightLimit = end - leftEnd;
-
-  std::vector<int> left;
-  left.reserve(leftEnd);
-  std::vector<int> right;
-  right.reserve(rightLimit);
-
-  if (arr.size() <= 1) {
-
-    return;
-  }
-  for(int i = 0; i <= leftEnd; ++i) {
-    
-    left.push_back(arr[i]);
+    //return 0;
   }
 
-  for(int i = 0; i < rightLimit; ++i) {
-    
-    right.push_back(arr[rightStart+i]);
-  }
+  int middle = (leftStart + rightEnd)/2;
+  mergeSort(arr, size, leftStart, middle);
+  mergeSort(arr, size, middle+1, rightEnd);
+  merge(arr, leftStart, size, rightEnd);
+}
+int main() {
+
+  int arr[] = {5, 2, 7, 0, 9, 6, 3, 1, 8};
+  int size = sizeof(arr)/sizeof(arr[0]);
   
-  mergeSort(left);
-  mergeSort(right);
-  merge(arr, left, right);
+  int * sorted = mergeSort(arr, size, 0, size);
+  std::cout << sorted[1];
 }
-int main(int argc, char** argv) {
-
-  std::vector<int>arr;
-  //arr = {5, 4, 8, 3, 1, 9, 7, 11, 18, 2, 17};
-  arr = getRandomInputValues(argv[1]);
-  mergeSort(arr);
-
-  for (int i = 0; i< arr.size(); ++i) {
-    
-    std::cout << arr.at(i) << " ";
-  }
-}
-  

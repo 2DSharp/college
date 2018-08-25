@@ -6,7 +6,8 @@
 template <typename T>
 LinkedList<T>::LinkedList(T data) {
 
-  this->head = this->createNode(data);
+  this->size = 0;
+  this->tail = this->head = this->createNode(data);
 }
 
 template <typename T>
@@ -15,6 +16,13 @@ typename LinkedList<T>::Node * LinkedList<T>::createNode(T data) {
   Node * node = new Node;
   node->data = data;
   node->next = NULL;
+  this->size++;
+}
+template <typename T>
+void  LinkedList<T>::deleteNode(typename LinkedList<T>::Node * elem) {
+
+  delete elem;
+  
 }
 template <typename T>
 void LinkedList<T>::iterateThroughList() {
@@ -43,7 +51,7 @@ LinkedList<T>::~LinkedList() {
     prevCur = cur;
     cur = cur->next;
 
-    delete prevCur;
+    this->deleteNode(prevCur);
   }
 }
 template <typename T>
@@ -71,7 +79,7 @@ void LinkedList<T>::popBack() {
   Node * cur = this->head;
   if (cur->next == NULL) {
     
-    delete cur;
+    this->deleteNode(cur);
     this->head = NULL;
     return;
   }
@@ -79,7 +87,7 @@ void LinkedList<T>::popBack() {
 
     cur = cur->next;
   }
-  delete cur->next;
+  this->deleteNode(cur->next);
   cur->next = NULL;
 }
 template <typename T>
@@ -87,13 +95,13 @@ void LinkedList<T>::popFront() {
 
   if (this->head->next == NULL) {
     
-    delete this->head;
+    this->deleteNode(this->head);
     this->head = NULL;
     return;
   }
   Node * newHead = this->head->next;
    
-  delete this->head;
+  this->deleteNode(this->head);
   this->head = newHead;
 }
 template <typename T>

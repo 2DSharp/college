@@ -14,7 +14,6 @@ int main() {
   std::cout << std::endl;
   list.reverse();
   list.update(20, 1000);
-  
   list.iterateThroughList();
   std::cout << std::endl;
   /*
@@ -22,13 +21,12 @@ int main() {
   list.pushFront(212);
   list.iterateThroughList();
   std::cout << std::endl;
-  */
-  /*
+  
   list.popBack();
   list.iterateThroughList();
   std::cout << std::endl;
   list.popFront();
   list.iterateThroughList();
   std::cout << std::endl;
-  */
+*/
 }

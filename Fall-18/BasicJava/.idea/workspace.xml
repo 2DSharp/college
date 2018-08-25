@@ -15,48 +15,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Salary.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SalaryCalculation/Salary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IncomeTax.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SalaryCalculation/IncomeTax.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SalaryCalculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SalaryCalculation/SalaryCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-              <folding>
-                <element signature="e#187#188#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SalaryApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SalaryCalculation/SalaryApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,62 +24,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InterestCalculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/InterestCalculationOverriding/InterestCalculator.java">
+      <file leaf-file-name="DummyNumberGen.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/RandomClasswork/DummyNumberGen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/InterestCalculationOverriding/Bank.java">
+      <file leaf-file-name="CommandLineApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/CommandLineApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SBI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/InterestCalculationOverriding/SBI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="55" selection-start-column="55" selection-end-column="55" />
-              <folding>
-                <element signature="e#110#111#0" expanded="true" />
-                <element signature="e#145#146#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Axis.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/InterestCalculationOverriding/Axis.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-              <folding>
-                <element signature="e#112#113#0" expanded="true" />
-                <element signature="e#147#148#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ICICI.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/InterestCalculationOverriding/ICICI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#114#115#0" expanded="true" />
-                <element signature="e#148#149#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -177,11 +95,12 @@
         <option value="$PROJECT_DIR$/src/me/twodee/CS2005/SalaryCalculation/SalaryCalculator.java" />
         <option value="$PROJECT_DIR$/src/me/twodee/CS2005/SalaryCalculation/SalaryApplication.java" />
         <option value="$PROJECT_DIR$/src/me/twodee/CS2005/InterestCalculationOverriding/Bank.java" />
-        <option value="$PROJECT_DIR$/src/me/twodee/CS2005/Main.java" />
         <option value="$PROJECT_DIR$/src/me/twodee/CS2005/InterestCalculationOverriding/InterestCalculator.java" />
         <option value="$PROJECT_DIR$/src/me/twodee/CS2005/InterestCalculationOverriding/SBI.java" />
         <option value="$PROJECT_DIR$/src/me/twodee/CS2005/InterestCalculationOverriding/Axis.java" />
         <option value="$PROJECT_DIR$/src/me/twodee/CS2005/InterestCalculationOverriding/ICICI.java" />
+        <option value="$PROJECT_DIR$/src/me/twodee/CS2005/Main.java" />
+        <option value="$PROJECT_DIR$/src/me/twodee/CS2005/RandomClasswork/DummyNumberGen.java" />
       </list>
     </option>
   </component>
@@ -259,7 +178,7 @@
               <item name="BasicJava" type="58d84e3e:PackageViewProjectNode" />
               <item name="BasicJava" type="616d4139:PackageViewModuleNode" />
               <item name="me.twodee.CS2005" type="1f31426a:PackageElementNode" />
-              <item name="InterestCalculationOverriding" type="1f31426a:PackageElementNode" />
+              <item name="RandomClasswork" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -323,17 +242,19 @@
       <workItem from="1534570267434" duration="2593000" />
       <workItem from="1534823132094" duration="1740000" />
       <workItem from="1535020960981" duration="22000" />
+      <workItem from="1535175767226" duration="2056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28597000" />
+    <option name="totallyTimeSpent" value="30653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-18" width="1368" height="787" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -341,11 +262,11 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3169643" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.316474" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12371889" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17789166" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -359,7 +280,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,13 +294,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SimpleCalculator/Addition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/SimpleCalculator/Subtraction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -619,13 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/CommandLineApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/ArithmeticOperator/Addition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -697,13 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/InterestCalculationOverriding/InterestCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -739,11 +638,35 @@
     <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/InterestCalculationOverriding/ICICI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#114#115#0" expanded="true" />
             <element signature="e#148#149#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/CommandLineApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/twodee/CS2005/RandomClasswork/DummyNumberGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>

@@ -1,7 +1,10 @@
 #include <iostream>
+#include "Vector.h"
 
-template <class T>
-class Vector {
+int main() {
 
+  Vector<int> arr;
+  arr.pushBack(10);
+  std::cout << arr.at(0);
+}
 
-};

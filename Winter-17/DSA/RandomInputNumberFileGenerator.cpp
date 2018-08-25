@@ -14,8 +14,8 @@ void generate(string file, int num) {
 
   for(int i=0;i<=num-1; i++) {
     
-    randNum= (rand()%(num*10 -1))+1;
-    //randNum = i;
+    //randNum= (rand()%(num*10 -1))+1;
+    randNum = i * 17;
     myfile << randNum << "\n";
   }
   myfile.close();

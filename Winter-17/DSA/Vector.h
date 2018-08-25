@@ -4,21 +4,19 @@
 template <typename T> class Vector {
 
 private:
-  struct Element {
-    T value;
-    int index;
-  };
-  Element * createElement(T data, int index);
+
+  void createElement(T data, int index);
   int end;
   int size;
-
+  int arr;
 public:
   /**
    * Constructors and destructors
    */
   Vector();
   ~Vector();
-  void push_back(T value);
+  void pushBack(T value);
+  T at(int index);
 };
 
 #include "Vector.impl.h"

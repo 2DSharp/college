@@ -7,7 +7,9 @@
 template <typename T>
 Vector<T>::Vector() {
 
-  this->end = 0;
+  this->size = 0;
+  int * arr = new int[size];
+  this->arr = arr;
 }
 template <typename T>
 Vector<T>::~Vector() {
@@ -15,18 +17,25 @@ Vector<T>::~Vector() {
 }
 
 template <typename T>
-typename Vector<T>::Element * Vector<T>::createElement(T data, int index) {
+void Vector<T>::createElement(T data, int index) {
+  
+  int * temp = new int[this->size++];
 
-  Element * elem = new Element;
-  elem.value = data;
-  elem.index = index;
-
-  return elem;
+  for (int i = 0; i < size; i++) {
+    temp[i] = this->arr[i];
+  }
+  delete [] this->arr;
+  this->arr = temp;
+  this->arr[index] = data;
 }
 template <typename T>
-void Vector<T>::push_back(T data) {
+void Vector<T>::pushBack(T data) {
 
-  Element * elem = createElement(data, this->end+1);
-  this->size++;
+  this.createElement(data, this->size - 1);
+}
+template <typename T>
+T Vector<T>::at(int index) {
+
+  return this->arr[index];
 }
 #endif

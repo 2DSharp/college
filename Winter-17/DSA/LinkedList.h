@@ -8,21 +8,27 @@ private:
 
     T data;
     Node * next;
-  };
-  Node * head;
+  } * head,
+    * tail;
+  unsigned size;
   Node * createNode(T data);
-
+  void deleteNode(Node *);
 public:
   LinkedList(T headData);
   ~LinkedList();
   void iterateThroughList();
-  void pushBack(T data);
-  void pushFront(T data);
+  void pushBack(T);
+  void pushFront(T);
   void popBack();
   void popFront();
   void reverse();
   bool update(int, T);
+  void sort();
 };
 
 #include "LinkedListFuncs.h"
 #endif
+
+
+
+
