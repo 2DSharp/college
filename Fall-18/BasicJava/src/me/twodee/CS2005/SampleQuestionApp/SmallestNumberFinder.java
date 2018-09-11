@@ -9,9 +9,13 @@ import java.util.Scanner;
 public class SmallestNumberFinder implements CommandLineApp
 {
 
+    private double doSomething(double something) {
+        return something + 2;
+    }
     private double getSmallest(List<Double> nums)
     {
-        return nums.stream().min(Double::compareTo).get();
+        String some = new String("Hi");
+        return nums.stream().map(this::doSomething).min(Double::compareTo).get();
     }
     @Override
     public void run(Scanner scanner)

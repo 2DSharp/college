@@ -2,6 +2,9 @@ package me.twodee.CS2005.RandomClasswork;
 
 import me.twodee.CS2005.CommandLineApp;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.Scanner;
 
 public class DummyNumberGen implements CommandLineApp
@@ -18,11 +21,13 @@ public class DummyNumberGen implements CommandLineApp
 
         System.out.print("Enter marks for number: ");
         int dummy = scanner.nextInt();
-
         for (int num : regNums) {
 
 
         }
+        Date date = new Date();
+
+
     }
 
     int getRandomNumber(int min, int max)
