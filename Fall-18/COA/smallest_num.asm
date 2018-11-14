@@ -1,4 +1,4 @@
-;8086 program for largest number
+;8086 program for smallest number
 
 .model small
 .data
